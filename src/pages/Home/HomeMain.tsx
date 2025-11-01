@@ -71,7 +71,7 @@ const HomeMain = () => {
       </div>
       <div className="flex flex-col px-10 md:px-20 z-10 justify-center items-center mt-12 md:mt-16">
         <div className="text-4xl md:text-5xl lg:text-6xl font-semibold text-center">
-          Your journey starts here{" "}
+          Your journey stars here{" "}
         </div>
         <div className="text-sm md:text-base lg:text-lg text-center mt-4">
           Welcome to Unmapt. Find the place you can call home!
