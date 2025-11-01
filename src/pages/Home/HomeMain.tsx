@@ -74,7 +74,7 @@ const HomeMain = () => {
           Your journey starts here{" "}
         </div>
         <div className="text-sm md:text-base lg:text-lg text-center mt-4">
-          Welcome to Unmapt. Find the place you can call home!
+          Welcome to whatever. Find the place you can call home!
           <br />
           You can search in two ways:
         </div>
