@@ -16,8 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: main # This ensures the staging branch is used for the build
+          with:
+            ref: master # checkout the master branch (matches repo default)
       - uses: pnpm/action-setup@v4
         with:
           version: 9
