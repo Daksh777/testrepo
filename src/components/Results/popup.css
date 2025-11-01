@@ -1,0 +1,39 @@
+.custom-popup .maplibregl-popup-content {
+  background-color: #f2f4f1;
+  padding: 0 !important;
+  border-radius: 10px;
+}
+
+.custom-popup .maplibregl-popup-tip {
+  border-top-color: #f2f4f1;
+}
+
+.checkbox-container input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border: 1px solid #3b8c6e;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-container input[type="checkbox"]:checked {
+  background-color: #3b8c6e;
+  border-color: #3b8c6e;
+}
+
+.checkbox-container input[type="checkbox"]:checked::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-bottom: 2px;
+}

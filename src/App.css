@@ -1,0 +1,9 @@
+.pdf-page {
+  width: 794px;
+  height: 1123px;
+  margin: 0;
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
