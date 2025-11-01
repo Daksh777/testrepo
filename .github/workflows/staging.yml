@@ -7,7 +7,7 @@ env:
 on:
   push:
     branches:
-      - main # It will trigger on staging branch
+      - master # It will trigger on staging branch
   workflow_dispatch:
 
 jobs:
